@@ -76,16 +76,8 @@
                }
             });
         });
-
-// remove PRE
-/*
-                    $(document).ready(function() {
-    $("body").children().each(function() {
-        $(this).html($(this).html().replace(/&#8232;/g," "));
-    });
-});
-*/
     /* animation on scroll widget */
+    /*
 $(function() {
     var $animation_elements = $('.animation-element');
     var $window = $(window);
@@ -115,3 +107,4 @@ $(function() {
     $window.trigger('scroll');
 
 })
+*/
