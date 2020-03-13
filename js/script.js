@@ -1,8 +1,10 @@
 
         $(function() {
-           window.dispatchEvent(new Event('resize'));
-           // a decommenter si tu as encore des problemes: window.dispatchEvent(new Event('scroll'));        
-        }
+            setTimeout(function() {
+                window.dispatchEvent(new Event('resize'));
+                window.dispatchEvent(new Event('scroll'));        
+            }, 100)
+        })
 
         /*
          * active menu widget for Silex
